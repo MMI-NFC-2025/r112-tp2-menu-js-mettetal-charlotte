@@ -6,7 +6,7 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
   background-color: white; /* Définit la couleur de fond du menu en blanc : https://developer.mozilla.org/fr/docs/Web/CSS/background-color */
   display: flex; /* Utilise Flexbox pour la mise en page des éléments enfants : https://developer.mozilla.org/fr/docs/Web/CSS/display-inside#flex */
   top: 20px; /* Positionne le menu en haut de la page : https://developer.mozilla.org/fr/docs/Web/CSS/top */
-  position: absolute bottom; /* Étend le menu jusqu'en bas de la page */
+  position: absolute; /* Étend le menu jusqu'en bas de la page */
   position: left; /* Positionne le menu à gauche de la page */
   position: absolute right; /* Étend le menu jusqu'à droite de la page */
   transition-property : 0.4s; /* Définit une transition de 0.4 secondes pour toutes les propriétés, avec un effet d'accélération et de décélération : https://developer.mozilla.org/fr/docs/Web/CSS/transition */
